@@ -11,13 +11,21 @@ A super simple FastAPI application that allows students to view and sign up for 
 
 1. Install the dependencies:
 
-   ```
-   pip install fastapi uvicorn
+   ```powershell
+   .\.venv\Scripts\Activate.ps1
+   python -m pip install fastapi uvicorn
    ```
 
-2. Run the application:
+2. Run the application from the project root:
 
+   ```powershell
+   python src/app.py
    ```
+
+   Or from inside the `src` folder:
+
+   ```powershell
+   cd src
    python app.py
    ```
 
