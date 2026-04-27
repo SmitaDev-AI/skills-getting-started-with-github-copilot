@@ -55,6 +55,6 @@ The application uses a simple data model with meaningful identifiers:
    - Name
    - Grade level
 
-   ## I am making first commit
+   ## Assigning Issue is important to trigger the workflow
 
 All data is stored in memory, which means data will be reset when the server restarts.
